@@ -75,18 +75,25 @@ body {
   width: 80%;
   margin: auto;
   margin-top: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 .number-header {
   color: #999;
   font-family: menlo;
   display: inline;
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .header-title {
   color: #333;
   display: inline;
   text-transform: capitalize;
+}
+
+.aboutme-long {
+  width: 80%;
+  padding: 10px 15px 0 0px;
+  font-size: 18px;
+  text-align: left;
 }
