@@ -1,6 +1,10 @@
 .nav-ul {
   list-style: none;
   float: right;
+  border: 1px solid pink;
+  margin-right: 20px;
+  font-family: menlo;
+  font-size: 12px;
 }
 
 .nav-li {
@@ -10,21 +14,29 @@
 .nav-brand {
   text-decoration: none;
   padding: 5px;
-  font-size: 32px;
+  font-size: 52px;
+  font-family: 'Londrina Outline', cursive;
   border: 1px solid blue;
+  color: black !important;
+  float: left;
+  margin-left: 20px;
 }
 
 .nav-li a {
   text-decoration: none;
   padding: 10px;
-}
-
-.nav-brand {
-  float: left;
+  color: black;
+  text-transform: capitalize;
 }
 
 .custom-nav {
   border: 1px solid red;
   padding-bottom: 100px;
   padding-top: 20px;
+}
+
+.container {
+  border: 5px solid orange;
+  width: 70%;
+  margin-top: 10%;
 }
