@@ -3,12 +3,25 @@ body {
   letter-spacing: 0px;
 }
 
+#navbar {
+  overflow: hidden;
+  z-index: 2;
+  background-color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .nav-ul {
   list-style: none;
   float: right;
   margin-right: 20px;
   font-family: menlo;
   font-size: 12px;
+  padding-top: 18px;
 }
 
 .nav-li {
@@ -17,9 +30,8 @@ body {
 
 .nav-brand {
   text-decoration: none;
-  padding: 5px;
+  padding-bottom: 0;
   font-size: 52px;
-  font-family: 'Londrina Outline', cursive;
   color: black !important;
   float: left;
   margin-left: 20px;
@@ -29,18 +41,18 @@ body {
 .nav-li a {
   text-decoration: none;
   padding: 10px;
+  padding-bottom: 0;
   color: black;
   text-transform: capitalize;
 }
 
 .custom-nav {
-  padding-bottom: 100px;
-  padding-top: 20px;
+  padding: 5px;
 }
 
 .container {
   width: 70%;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .aboutme {
@@ -75,6 +87,7 @@ body {
   margin: auto;
   margin-top: 50%;
   text-align: left;
+  padding-top: 75px;
   padding-left: 35px;
   margin-bottom: 50%;
 }
