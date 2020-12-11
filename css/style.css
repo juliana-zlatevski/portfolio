@@ -20,6 +20,7 @@
   color: black !important;
   float: left;
   margin-left: 20px;
+  line-height: 30px;
 }
 
 .nav-li a {
