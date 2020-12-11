@@ -1,0 +1,30 @@
+.nav-ul {
+  list-style: none;
+  float: right;
+}
+
+.nav-li {
+  display: inline;
+}
+
+.nav-brand {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 32px;
+  border: 1px solid blue;
+}
+
+.nav-li a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav-brand {
+  float: left;
+}
+
+.custom-nav {
+  border: 1px solid red;
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
