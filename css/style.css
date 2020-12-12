@@ -51,6 +51,10 @@ body {
   text-transform: capitalize;
 }
 
+a:hover {
+  cursor: nesw-resize;
+}
+
 .custom-nav {
   padding: 5px;
 }
