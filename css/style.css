@@ -40,7 +40,7 @@ body {
 
 .icon {
   /* gradient and fallback color */
-  fill: url(#my-gradient) #447799;
+  fill: url(#my-gradient) #2B5DEA;
 }
 
 .nav-li a {
@@ -53,6 +53,10 @@ body {
 
 a:hover {
   cursor: nesw-resize;
+}
+
+.numbers {
+  color: #2B5DEA !important;
 }
 
 .custom-nav {
