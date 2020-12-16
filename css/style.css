@@ -31,16 +31,16 @@ body {
 }
 
 .nav-brand {
-  text-decoration: none;
-  font-family: menlo;
-  padding-bottom: 5px;
   padding-top: 15px;
   font-size: 52px;
-  color: #FEFEFE !important;
   float: left;
   margin-left: 20px;
   line-height: 30px;
-  text-transform: uppercase;
+}
+
+.icon {
+  /* gradient and fallback color */
+  fill: url(#my-gradient) #447799;
 }
 
 .nav-li a {
