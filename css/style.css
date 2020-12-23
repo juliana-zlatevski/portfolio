@@ -21,8 +21,8 @@ body {
   list-style: none;
   float: right;
   margin-right: 20px;
-  font-family: menlo;
-  font-size: 12px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 13px;
   padding-top: 18px;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .icon {
-  fill: url(#my-gradient) #2B5DEA;
+  fill: url(#my-gradient) #2b5dea;
 }
 
 .nav-li a {
@@ -68,15 +68,15 @@ a:hover {
 }
 
 .aboutme {
-  width: 60%;
-  padding-top: 10px;
+  width: 65%;
+  padding-top: 40px;
   padding-bottom: 10px;
   font-size: 18px;
 }
 
 .intro {
-  font-family: menlo;
-  font-size: 16px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 15px;
   line-height: 10px;
 }
 
@@ -92,79 +92,83 @@ a:hover {
 }
 
 .contact-button {
-  font-family: menlo;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
   background-color: transparent;
-  border: 0px;
+  border: 1px solid #2B5DEA;
   color: #2B5DEA;
-  font-size: 16px;
+  border-radius: 50px;
+  display: inline-block;
 }
 
 .contact-button:hover {
   background-color: transparent;
   border: 0px;
-  color: #2B5DEA;
-  font-size: 16px;
-  border-radius: 0;
-  transition: 0.5s;
-  margin-left: 15px;
+  color: #fefefe;
+  border: 1px solid #fefefe;
+  font-size: 12px;
+  border-radius: 50px;
+  transition: 0.3s;
+  margin-left: 8px;
 }
 
 #about {
-  width: 100%;
-  margin: auto;
-  margin-top: 50%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20%;
   text-align: left;
-  padding-top: 75px;
-  padding-left: 35px;
-  margin-bottom: 50%;
+  padding-top: 15%;
+  margin-bottom: 20%;
+  /* border: 1px solid rosybrown; */
 }
 
 .number-header {
   color: #999;
-  font-family: menlo;
+  font-family: 'Roboto Mono', monospace;
   display: inline;
   font-size: 20px;
+  text-align: left;
 }
 
 .header-title {
   color: #2B5DEA;
   display: inline;
   text-transform: lowercase;
+  text-align: left;
 }
 
 .aboutme-long {
-  width: 55%;
-  padding: 10px 15px 0px 0px;
-  font-size: 18px;
+  width: 60%;
+  padding: 10px 10px 0px 0px;
+  font-size: 16px;
   text-align: left;
   display: inline;
   float: left;
+  padding-right: 20px;
+  /* border: 1px solid lime; */
 }
 
 .img-box {
   width: 40%;
-  height: 70%;
+  height: 40%;
   display: inline;
   float: right;
-  border-radius: 15px;
-  margin-top: 20px;
+  border-radius: 20%;
+  /* border: 1px solid lightseagreen; */
 }
 
 .aboutme-img {
-  width: 100%;
+  width: 90%;
   margin: auto;
   border-radius: 50%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 10px;
+  margin-bottom: 100px;
   filter: grayscale(100%);
+  /* border: 1px solid #2B5DEA; */
+  margin-left: -10px;
 }
 
 .aboutme-img:hover {
-  width: 100%;
-  margin: auto;
-  border-radius: 50%;
-  padding-top: 20px;
-  padding-bottom: 20px;
   filter: grayscale(0%);
 }
 
@@ -172,7 +176,7 @@ a:hover {
   width: 50%;
   text-align: left;
   margin-left: 0;
-  font-family: menlo;
+  font-family: 'Roboto Mono', monospace;
   font-size: 12px;
 }
 
@@ -180,6 +184,7 @@ a:hover {
   list-style: none;
   display: inline-block;
   padding: 0px;
+  padding-left: 10px;
 }
 
 .technologies-right {
@@ -193,6 +198,10 @@ li {
   padding: 5px;
 }
 
+ul {
+  margin-bottom: 30px;
+}
+
 a {
   color: white;
 }
@@ -204,8 +213,8 @@ a:hover {
 #work {
   width: 100%;
   margin: auto;
-  margin-top: 50%;
-  padding-top: 75px;
+  margin-top: 10%;
+  padding-top: 10%;
   margin-bottom: 0%;
   position: relative;
   /* border: 1px solid salmon; */
@@ -217,12 +226,12 @@ a:hover {
   display: inline;
   width: 65%;
   z-index: 4;
-  /* border: 1px solid yellow; */
+  /* border: 1px solid orange; */
 }
 
 .work-right {
   padding: 10px;
-  padding-top: 70px;
+  padding-top: 50px;
   float: right;
   display: inline;
   width: 45%;
@@ -244,8 +253,8 @@ a:hover {
 }
 
 .project-header {
-  font-family: menlo;
-  font-size: 14px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 13px;
   color: #2B5DEA;
 }
 
@@ -258,7 +267,7 @@ a:hover {
 }
 
 .project-tech {
-  font-family: menlo;
+  font-family: 'Roboto Mono', monospace;
   font-size: 12px;
 }
 
@@ -268,13 +277,24 @@ a:hover {
   text-decoration: none;
 }
 
+#work2 {
+  width: 100%;
+  margin: auto;
+  margin-top: 37%;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  margin-bottom: 0%;
+  position: relative;
+  /* border: 1px solid lightgreen; */
+}
+
 .work2-right {
-  padding-top: 100px;
+  padding-top: 80px;
   float: right;
   display: inline;
   width: 65%;
   z-index: 6;
-  /* border: 1px solid purple; */
+  /* border: 1px solid turquoise; */
 }
 
 .work2-left {
@@ -283,8 +303,8 @@ a:hover {
   display: inline;
   width: 45%;
   text-align: left;
+  padding-top: 80px;
   position: absolute;
-  top: 570px;
   left: 0;
   z-index: 7;
   /* border: 1px solid purple; */
@@ -298,12 +318,12 @@ a:hover {
   text-align: left;
 }
 
-#work2 {
+#work3 {
   width: 100%;
   margin: auto;
-  margin-top: 77%;
-  padding-top: 75px;
-  margin-bottom: 50%;
+  margin-top: 37%;
+  padding-top: 40px;
+  margin-bottom: 20%;
   position: relative;
   /* border: 1px solid lightgreen; */
 }
@@ -334,10 +354,10 @@ a:hover {
   width: 100%;
   margin: auto;
   margin-top: 60%;
-  padding-top: 75px;
-  margin-bottom: 40%;
+  padding-top: 20%;
+  margin-bottom: 0%;
   position: relative;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   /* border: 1px solid salmon; */
 }
 
@@ -371,14 +391,13 @@ a:hover {
 
 .contact-skills-header {
   text-align: center;
-  font-size: 14px;
-  font-family: menlo;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 13px;
   text-transform: uppercase;
   color: #787878;
   padding-bottom: 0; 
   padding-top: 10px;
   letter-spacing: 1px;
-  font-weight: lighter;
   /* border: 1px solid red; */
 }
 
@@ -396,16 +415,37 @@ a:hover {
   font-size: 42px;
   padding: 5px;
   letter-spacing: 2px;
-  color: #2B5DEA;
   padding-top: 20px;
+}
+
+.social-icons {
+  color: #fefefe;
+}
+
+a:hover, a:focus, a:active, a:visited, a:link{
+  text-decoration: none;
 }
 
 .fab:hover,
 .fas:hover {
-  color: #fefefe;
+  color: #2B5DEA;
   transition: 0.3s;
 }
 
 .get-in-touch {
   margin-top: 40px;
+}
+
+.back-to-top {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 13px;
+  letter-spacing: 0;
+  color: #2B5DEA;
+}
+
+.back-to-top:hover {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 13px;
+  letter-spacing: 0;
+  color: #fefefe;
 }
