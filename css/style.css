@@ -356,7 +356,7 @@ a:hover {
   margin: auto;
   margin-top: 60%;
   padding-top: 120px;
-  margin-bottom: 0%;
+  margin-bottom: 10%;
   position: relative;
   padding-bottom: 0px;
   /* border: 1px solid salmon; */
@@ -453,4 +453,24 @@ a:hover, a:focus, a:active, a:visited, a:link{
   font-size: 13px;
   letter-spacing: 0;
   color: #fefefe;
+}
+
+.final-contact {
+  text-align: left;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.number-header-centered {
+  color: #999;
+  font-family: 'Roboto Mono', monospace;
+  display: inline;
+  font-size: 20px;
+}
+
+.header-title-centered {
+  color: #2B5DEA;
+  display: inline;
+  text-transform: lowercase;
 }
