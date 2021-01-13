@@ -137,6 +137,10 @@ a:hover {
   margin-left: 8px;
 }
 
+#learn-more {
+  display: none;
+}
+
 #about {
   width: 80%;
   margin: 0 auto;
