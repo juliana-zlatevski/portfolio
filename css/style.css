@@ -788,6 +788,12 @@ a:hover, a:focus, a:active, a:visited, a:link{
     width: 100%;
     margin-top: 300px;
   }
+  .final-contact {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
   .gradient-linebreak {
     width: 60%;
   }
