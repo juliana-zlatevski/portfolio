@@ -9,7 +9,8 @@ body {
   overflow: hidden;
   z-index: 15;
   background-color: #131313;
-  border: 1px solid red;
+  padding-bottom: 20px;
+  /* border: 1px solid red; */
 }
 
 .sticky {
@@ -37,7 +38,7 @@ body {
   float: left;
   margin-left: 20px;
   line-height: 30px;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
 }
 
 .icon {
@@ -47,10 +48,14 @@ body {
 .checkbtn {
   float: right;
   color: #2B5DEA;
-  margin-right: 20px;
+  margin-top: 20px;
   cursor: nesw-resize;
-  font-size: 30px;
+  font-size: 10px;
   display: none;
+  font-family: 'Roboto Mono', monospace;
+  padding: 10px;
+  border: 1px solid #2B5DEA;
+  border-radius: 50px;
 }
 
 #check {
@@ -63,7 +68,7 @@ body {
   padding-bottom: 0;
   color: #FEFEFE;
   text-transform: capitalize;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
 }
 
 a:hover {
@@ -81,7 +86,7 @@ a:hover {
 .container {
   width: 70%;
   margin-top: 175px;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 
 .aboutme {
@@ -89,7 +94,7 @@ a:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 18px;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
 }
 
 .intro {
@@ -139,7 +144,7 @@ a:hover {
   text-align: left;
   padding-top: 15%;
   margin-bottom: 20%;
-  border: 1px solid rosybrown;
+  /* border: 1px solid rosybrown; */
 }
 
 .number-header {
@@ -237,7 +242,7 @@ a:hover {
   padding-top: 10%;
   margin-bottom: 0%;
   position: relative;
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
 }
 
 .work-left {
@@ -246,7 +251,7 @@ a:hover {
   display: inline;
   width: 65%;
   z-index: 4;
-  /* border: 1px solid orange; */
+  /* border: 1px solid aqua; */
 }
 
 .work-right {
@@ -305,7 +310,7 @@ a:hover {
   padding-bottom: 60px;
   margin-bottom: 0%;
   position: relative;
-  border: 1px solid lightgreen;
+  /* border: 1px solid lightgreen; */
 }
 
 .work2-right {
@@ -345,7 +350,7 @@ a:hover {
   padding-top: 40px;
   margin-bottom: 20%;
   position: relative;
-  border: 1px solid lightgreen;
+  /* border: 1px solid lightgreen; */
 }
 
 .work3-left {
@@ -378,7 +383,7 @@ a:hover {
   margin-bottom: 10%;
   position: relative;
   padding-bottom: 0px;
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
 }
 
 .gradient-linebreak {
@@ -442,7 +447,6 @@ a:hover {
 
 .social-icons {
   color: #fefefe;
-  /* padding-bottom: 40px; */
 }
 
 a:hover, a:focus, a:active, a:visited, a:link{
@@ -529,17 +533,15 @@ a:hover, a:focus, a:active, a:visited, a:link{
   #about {
     width: 100%;
     margin: 0 auto;
-    margin-top: 30%;
+    margin-top: 20%;
     text-align: left;
     padding-top: 10%;
     margin-bottom: 20%;
-    border: 1px solid rosybrown;
   }
   .aboutme-long{
     display: block;
     float: none;
     width: 100%;
-    border: 1px solid aqua;
     font-size: 14px;
     text-align: center;
   }
@@ -557,5 +559,249 @@ a:hover, a:focus, a:active, a:visited, a:link{
   .technologies {
     width: 100%;
     padding-left: 20px;
+  }
+  #recent-projects {
+    display: none;
+  }
+  #work {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .work-left {
+    padding-top: 40px;
+    width: 100%;
+    z-index: 4;
+  }
+  .project-img {
+    width: 100%;
+    filter: grayscale(100%);
+    opacity: 0.09;
+  }
+  .work-right {
+    width: 100%;
+    text-align: left;
+    z-index: 5;
+    padding: 100px 20px 10px 20px;
+  }
+  .project-desc,
+  .project-desc2 {
+    padding: 0;
+    background-color: transparent;
+    font-size: 13px;
+  }
+  .project-tech {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+  #work2 {
+    width: 100%;
+    margin-top: 315px;
+    padding-top: 0;
+  }
+  .work2-right {
+    padding-top: 40px;
+    width: 100%;
+    z-index: 6;
+  }
+  .work2-left {
+    padding: 100px 20px 10px 20px;
+    width: 100%;
+    text-align: right;
+    z-index: 7;
+  }
+  .get-in-touch {
+    display: none;
+  }
+  #work3 {
+    width: 100%;
+    margin-top: 200px;
+  }
+  .work3-left {
+    padding-top: 40px;
+    width: 100%;
+    z-index: 4;
+  }
+  .work3-right {
+    padding: 90px 20px 10px 20px;
+    width: 100%;
+    text-align: left;
+    z-index: 5;
+  }
+  .project-name {
+    font-size: 18px;
+  }
+  #contact {
+    width: 100%;
+    margin-top: 300px;
+  }
+  .gradient-linebreak {
+    width: 60%;
+  }
+  .contact-skills-header {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #787878;
+    padding-bottom: 0; 
+    padding-top: 10px;
+    letter-spacing: 1px;
+  }
+  .contact-skills {
+    font-size: 14px;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 85%;
+    margin-top: 175px;
+  }
+  .heading-name{
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .heading-tag{
+    font-size: 32px;
+  }
+  .aboutme {
+    font-size: 16px;
+    width: 80%;
+  }
+  .contact-button {
+    font-size: 10px;
+  }
+  .contact-button:hover {
+    font-size: 10px;
+    margin-left: 0;
+  }
+  #learn-more {
+    display: none;
+  }
+  #about {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15%;
+    text-align: left;
+    padding-top: 10%;
+    margin-bottom: 20%;
+  }
+  .aboutme-long{
+    display: block;
+    float: none;
+    width: 100%;
+    padding: 10px 50px 10px 50px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .img-box {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  .aboutme-img {
+    margin-bottom: 0;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .technologies {
+    width: 100%;
+    padding-left: 23%;
+    margin-top: -20px;
+  }
+  #recent-projects {
+    display: none;
+  }
+  #work {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .work-left {
+    padding-top: 40px;
+    width: 100%;
+    z-index: 4;
+  }
+  .project-img {
+    width: 100%;
+    filter: grayscale(100%);
+    opacity: 0.09;
+  }
+  .work-right {
+    width: 100%;
+    text-align: left;
+    z-index: 5;
+    padding: 100px 50px 10px 50px;
+  }
+  .project-desc,
+  .project-desc2 {
+    padding: 0;
+    background-color: transparent;
+    font-size: 13px;
+  }
+  .project-tech {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+  #work2 {
+    width: 100%;
+    margin-top: 315px;
+    padding-top: 0;
+  }
+  .work2-right {
+    padding-top: 40px;
+    width: 100%;
+    z-index: 6;
+  }
+  .work2-left {
+    padding: 140px 50px 10px 50px;
+    width: 100%;
+    text-align: right;
+    z-index: 7;
+  }
+  .get-in-touch {
+    display: none;
+  }
+  #work3 {
+    width: 100%;
+    margin-top: 200px;
+  }
+  .work3-left {
+    padding-top: 40px;
+    width: 100%;
+    z-index: 4;
+  }
+  .work3-right {
+    padding: 150px 50px 10px 50px;
+    width: 100%;
+    text-align: left;
+    z-index: 5;
+  }
+  .project-name {
+    font-size: 18px;
+  }
+  #contact {
+    width: 100%;
+    margin-top: 400px;
+  }
+  .gradient-linebreak {
+    width: 60%;
+  }
+  .contact-skills-header {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #787878;
+    padding-bottom: 0; 
+    padding-top: 10px;
+    letter-spacing: 1px;
+  }
+  .contact-skills {
+    font-size: 14px;
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
   }
 }
