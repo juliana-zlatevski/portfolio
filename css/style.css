@@ -85,7 +85,7 @@ a:hover {
 
 .container {
   width: 70%;
-  margin-top: 175px;
+  margin-top: 170px;
   /* border: 1px solid purple; */
 }
 
@@ -137,16 +137,12 @@ a:hover {
   margin-left: 8px;
 }
 
-#learn-more {
-  display: none;
-}
-
 #about {
   width: 80%;
   margin: 0 auto;
   margin-top: 20%;
   text-align: left;
-  padding-top: 15%;
+  padding-top: 30%;
   margin-bottom: 20%;
   /* border: 1px solid rosybrown; */
 }
